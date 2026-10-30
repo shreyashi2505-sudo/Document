@@ -1,0 +1,33 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: navajowhite;
+
+}
+.todo-container{
+    background-color: darkgray;
+    padding: 30px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow:0 4px 10px rgb(99, 165, 165);
+}  
+h1{
+    font-size: 40px;
+    color:rgb(131, 37, 37);
+}
+input{
+    padding: 10px;
+    width: 250px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+button{
+    padding: 10px;
+    border-radius: 15px;
+    background-color: burlywood;
+    cursor:pointer;
+}
+
+
